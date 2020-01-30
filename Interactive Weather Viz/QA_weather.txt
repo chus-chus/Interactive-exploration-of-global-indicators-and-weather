@@ -1,0 +1,92 @@
+Cristina Aguilera, Jesús Antoñanzas
+Projecte 2 VI
+GCED, UPC
+December 23rd, 2019
+
+How-to and examples of possible interactions for the weather exploration part of the project.
+
+(tip: double click to go back to an overview and restart selections).
+
+-------------------------
+DYNAMIC TEMPERATURE PLOTS
+-------------------------
+
+Q1: Seeing temperature values of a specific date.
+A1: In dynamic comparison, hover around the wanted date. The tooltip will show average, maximum and minimum temperatures for that day.
+
+Q2: Zoom into specific months of the year.
+A2: Select a month from any 'Select_month' dropdown. The respective plot will automatically update.
+
+Q3: Show maximum temperatures.
+A3: Toggle 'ON' the respective 'Show_max_temp' radio button. It will automatically update when selecting months. 
+
+Q4: Show minimum temperatures.
+A4: Toggle 'ON' the respective 'Show_min_temp' radio button. It will automatically update when selecting months. 
+
+Q5: Show annual maximum and minimum average temperature rules. 
+A5: When no month is selected, toggle 'ON' the respective 'Max_min_avg_rules' radio button. 
+
+Q6: Show monthly maximum and minimum average temperature rules.
+A6: Toggle 'ON' the respective 'Max_min_avg_rules' and select the desired month, they will automatically update.
+
+Q7: Compare different months' temperature values.  
+A7: Independently select the desired months in the 'Select_month' dropdowns. 
+
+Q8: Emphasize a time interval.
+A8: Just click and drag the desired interval in the horizontal dimension. 
+
+Q9: Check a time interval's average temperature.
+A9: Select any time interval and a horizontal rule will appear at the 'y' position of the average temperature for that interval. It will also show the value and adapt dynamically.
+
+Q10: Visually check a time interval's daily temperature range.
+A10: Just select a time interval, the daily temperature range will emphasize in green. 
+
+All these interactions can be independently performed on the three plots, so many combinations appear.
+
+
+--------------------------------------------------------------------------
+CROSS INTERACTION PLOTS (Wind, precipitation, snow, humidity, temperature)
+--------------------------------------------------------------------------
+
+From left to right, we will refer them by 'Winds', 'Precipitation/Snowfall' and 'Temperature/Relative Humidity'. 
+
+'Precipitation/Snowfall' -> Precipitation in dark blue, snowfall in grey.
+'Temperature/Relative Humidity' -> Temperature in black, humidity in light blue.
+
+Q11: Check the speed wind distribution amongst winds of certain directions. 
+A11: In the winds barplot select the desired degree interval. The number of days with winds in a certain direction and speed will appear in white and dynamically appear. 
+
+Q12: See the number of days that a wind in certain direction blew in. 
+A12: Hover with the mouse on top of the desired bars. 
+
+Q13: Inspect precipitation or snowfall values of certain dates.
+A13: Hover over the 'precipitation/snowfall' barplot on the desired 'date' value.
+
+Q14: Inspect average/max/min temperature or humidity values of a certain observation.
+A14: Hover over the 'temperature/relative humidity' plot on the desired observation.
+
+Q15: Highlight any time interval.
+A15: Drag and select the time interval. Values corresponding to that time interval in the other plots will be highlighted too.
+
+Q16: Visually show precipitation or snowfall. 
+A16: Toggle 'ON' any of the 'Cross_show_snow' or 'Cross_show_precipitation' radio buttons. It will update the 'precipitation/snowfall' plot.
+
+Q17: Visually show humidity, average temperature values or maximum and minimum average temperatures. 
+A17: Toggle 'ON', respectively 'Cross_show_humidity', 'Cross_show_avg_temp' or 'Cross_max_min_avg_rules'.
+
+Q18: Inspect temperature or humidity values or visually show them.
+A18: Analogous to Q13 & Q14, but on the 'temperature/relative humidity' plot.
+
+Q19: See the proportions of winds and their characteristics for a certain time interval or precipitation/snowfall/temperature/humidity values.
+A19: Select the desired time interval on the 'precipitation/snowfall' or 'temperature/humidity' plots and the correspondent wind records will highlight.
+
+Q20: Check the average temperature/humidity of days with certain winds or in a time interval (with certain precipitation values, for example).
+A20: Select the desired winds interval and two rules will appear at the temperature plot showing the average temperature (red) and relative humidity (light blue) and the respective records will be highlighted.
+
+Q21: Check the average precipitation/snowfall of days with certain winds or in a desired time interval with certain characteristics.
+A21: Analogous to Q17, but the rules will be on the 'precipitation/snowfall' plot in gray (snowfall) and dark blue (precipitation).
+
+Q22: Zoom on certain months. 
+A22: Select the desired month from the 'Cross_select_month' dropdown. Every other interaction will respond according to the selected month. 
+
+

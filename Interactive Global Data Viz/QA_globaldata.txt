@@ -1,0 +1,29 @@
+Cristina Aguilera, Jesús Antoñanzas
+Projecte 2 VI
+GCED, UPC
+December 23rd, 2019
+
+How-to and examples of possible interactions for the gender gap on education part of the project.
+
+(tip: double click to go back to an overview and restart selections).
+
+Q1: Visually explore differences on gender gaps in all countries from the same continent.
+A1: Select its name/s in the interactive legend. They will highlight in its corresponding color.
+    Then explores the bubble chart changing years and indicators.
+    Finally activates gender gap button to check wether there is more men or women.
+
+Q2: Visually explore differences on gender gaps in specific countries.
+A2: Select them in the map or in the bubble chart. They will highlight in its corresponding color.
+    Then explores the bubble chart changing years and indicators.
+    Finally activates gender gap button to check wether there is more men or women.
+
+Q3: Visually explore differences on gender gaps in specific countries from the same continent.
+A3: Select the continent name/s in the interactive legend. Then select the country/ies in
+    particular in the map or in the bubble chart and they will highlight in its corresponding color.
+    Then explores the bubble chart changing years and indicators.
+    Finally activates gender gap button to check wether there is more men or women.
+
+Notes:
+  - If there's no data for one paricular country, in one year for one indicator
+    it will appear in light gray color in the map and you can not select it.
+  - x-axis uses a logarithm scale as well as the sizes of bubbles (values of the indicator).  
